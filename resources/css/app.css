@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1 {
+  font-size: x-large; 
+}
+h2 {
+  font-size: large; 
+}
+h3 {
+  font-size: medium; 
+}
+h4 {
+  font-size: small; 
+}
+h5 {
+  font-size: x-small; 
+}
+h6 {
+  font-size: xx-small; 
+}
+
+.dashboard-images{
+  height: 50vh;
+  width: -webkit-fill-available;
+}
+
+.categories > div {
+ border-radius: 30px;
+}
+
+.collections > div {
+  height: 28vh;
+}
